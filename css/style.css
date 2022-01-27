@@ -1,0 +1,505 @@
+*, html {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'FilsonPro';
+  src: url('../assets/FilsonProRegular.otf');
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+	font-family: 'AcuminVariable';
+	src: url('../assets/AcuminVariableConcept.otf');
+	font-style: normal;
+	font-weight: 300;
+}
+
+/* header */
+
+header nav{
+    display: flex;
+    min-height: 8vh;
+    background-color: #EB4F75;
+	justify-content: center;
+	width: 100%;
+}
+
+h1{
+	font-family: 'FilsonPro', sans-serif;   
+	font-size: 1.6em;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	font-weight: 700; 
+	margin-top: 12px;
+	margin-left: 8px;
+}
+
+header img{
+	height: 35px;
+	margin-top: 8px;
+}
+
+
+/* main */
+main {
+	background-color: #FFFFFF;
+	margin-bottom: 80px;
+}
+
+
+img.hoofdpagina{
+	height: 250px;
+}
+
+h2{
+    font-family: 'FilsonPro', sans-serif;   
+    font-size: 1.5em;
+    color: #5475B6; 
+    font-weight: 700; 
+    padding: 10px 20px 5px 20px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+p{
+	margin-top: 3px;
+	text-align: center;
+	font-family: 'AcuminVariable';
+}
+
+.button{
+	width: 100px;
+	height: 30px;
+	display: block;
+	background-color: #5475B6;
+	color: white;
+	font-family: 'FilsonPro', sans-serif;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 10px;
+	margin: 25px auto;
+	margin-top: 35px;
+}
+
+.button:hover{
+	background-color: #EB4F75;
+}
+
+.button2{
+	width: 100px;
+	height: 30px;
+	display: block;
+	background-color: #5475B6;
+	color: white;
+	font-family: 'FilsonPro', sans-serif;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 10px;
+	margin: 20px auto;
+	margin-top: 30px;
+}
+.button2:hover{
+	background-color: #EB4F75;
+}
+
+.button3{
+	width: 200px;
+	height: 50px;
+	display: block;
+	background-color: #5475B6;
+	color: white;
+	font-family: 'FilsonPro', sans-serif;
+	text-align: center;
+	line-height: 50px;
+	border-radius: 10px;
+	margin: 20px auto;
+	margin-top: 30px;
+}
+.button3:hover{
+	background-color: #EB4F75;
+}
+
+img.tweede{
+	width: 375px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+.quiz{
+	width: 300px;
+	display: block;
+	margin: 30px auto;
+	margin-top: 40px;
+}
+
+h3{
+    font-family: 'FilsonPro', sans-serif;   
+    font-size: 1.3em;
+    color: #5475B6; 
+    font-weight: 700; 
+    padding: 10px 20px 5px 20px;
+	text-align: center;
+	margin-top: -20px;
+}
+
+form.open{
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;
+}
+
+form.open input{
+	width: 70%;
+	padding: 3px;
+	border: none;
+	border-bottom: 2px solid #5475B6;
+}
+
+section img{
+	width: 50px;
+	margin: 30px;
+}
+
+section{
+	margin-top: 130px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+section.pijl{
+	margin-top: -10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+section.pijl img{
+	width: 50px;
+	margin: 30px;
+}
+
+section.pijl2{
+	margin-top: 65px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+section.pijl2 img{
+	width: 50px;
+	margin: 30px;
+}
+
+p.ondertekst{
+	margin-top: -5px;
+	text-align: center;
+	font-family: 'AcuminVariable';
+	font-size: 8px;
+}
+
+form.group{
+	display: inline-flex;
+	flex-direction: column;
+	align-items: center;
+	cursor: pointer;
+	width: 100%;
+	font-family: 'AcuminVariable';
+	margin-left: 15px;
+	margin-top: 20px;
+}
+
+form.group span label{
+	width: 18em;
+}
+form.group label{
+	margin-left: 20px;
+}
+
+form.group span{
+	display: flex;
+}
+
+
+ul{
+	background-color: #ececec;
+	width: 300px;
+	height: 150px;
+	margin-left: 40px;
+}
+
+li{
+	list-style: none;
+}
+
+h4{
+	background-color: #5475B6;
+	color: #FFFFFF;
+	font-family: 'FilsonPro', sans-serif;
+	margin: 30px auto;
+	margin-left: 1px;
+	padding: 7px;
+}
+
+img.food{
+	width: 100px;
+	height: 80px;
+	margin-left: 10px;
+	margin-top: -22px;
+}
+
+img.space{
+	width: 50px;
+	height: 80px;
+	margin-left: 10px;
+	margin-top: -22px;
+	filter: brightness(30%);
+}
+
+ul.lijst1{
+	margin-top: 100px;
+}
+
+section.sectie{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-top: 25px;
+}
+
+article.antwoorden{
+	background-color: #ececec;
+	height: 120px;
+	width: 320px;
+	padding: 23px;
+}
+
+article.antwoorden2{
+	margin-top: 50px;
+	background-color: #ececec;
+	height: 240px;
+	width: 320px;
+	padding: 23px;
+}
+
+article.antwoorden3{
+	margin-top: 50px;
+	background-color: #ececec;
+	height: 160px;
+	width: 320px;
+	padding: 23px;
+}
+
+article.antwoorden4{
+	margin-top: 50px;
+	background-color: #ececec;
+	height: 160px;
+	width: 320px;
+	padding: 23px;
+}
+
+article.antwoorden5{
+	margin-top: 50px;
+	background-color: #ececec;
+	height: 235px;
+	width: 320px;
+	padding: 23px;
+}
+
+p.school{
+	display: flex;
+	margin-left: 30px;
+	color: #5475B6;
+	font-family: 'FilsonPro', sans-serif;   
+}
+
+p.library{
+	display: flex;
+	margin-left: 142px;
+	margin-top: -20px;
+	color: #5475B6;
+	font-family: 'FilsonPro', sans-serif;   
+}
+
+p.more{
+	display: flex;
+	margin-top: -20px;
+	margin-left: 240px;
+	color: #5475B6;
+	font-family: 'FilsonPro', sans-serif;   
+}
+
+p.markt{
+	display: flex;
+	margin-left: 30px;
+	color: #5475B6;
+	font-family: 'FilsonPro', sans-serif;   
+}
+
+p.recept{
+	display: flex;
+	margin-left: 142px;
+	margin-top: -18px;
+	color: #5475B6;
+	font-family: 'FilsonPro', sans-serif;   
+}
+
+p.meer{
+	display: flex;
+	margin-left: 240px;
+	margin-top: -20px;
+	color: #5475B6;
+	font-family: 'FilsonPro', sans-serif;   
+}
+
+p.park{
+	display: flex;
+	margin-left: 40px;
+	color: #5475B6;
+	font-family: 'FilsonPro', sans-serif;   
+}
+
+p.strand{
+	display: flex;
+	margin-left: 148px;
+	margin-top: -21px;
+	color: #5475B6;
+	font-family: 'FilsonPro', sans-serif;   
+}
+
+p.nog{
+	display: flex;
+	margin-left: 240px;
+	margin-top: -18px;
+	color: #5475B6;
+	font-family: 'FilsonPro', sans-serif;   
+}
+
+p.markt2{
+	display: flex;
+	margin-left: 29px;
+	color: #5475B6;
+	font-family: 'FilsonPro', sans-serif;   
+}
+
+.button4{
+	width: 100px;
+	height: 30px;
+	display: block;
+	background-color: #5475B6;
+	color: white;
+	font-family: 'FilsonPro', sans-serif;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 10px;
+	margin: 20px auto;
+	margin-top: 30px;
+}
+.button4:hover{
+	background-color: #EB4F75;
+}
+
+img.bieb{
+	width: 297px;
+    height: 214px;
+    margin: 38px;
+}
+
+h2.kop{
+    font-family: 'FilsonPro', sans-serif;   
+    font-size: 1em;
+    color: #5475B6;
+	text-align: center;
+	margin-top: -40px;
+}
+
+p.locatie{
+	font-family: 'FilsonPro', sans-serif;   
+	font-size: 0.8em;
+	margin-left: 60px;
+	margin-right: 225px;
+	border: #5475B6 solid;
+	color:#FFFFFF;
+}
+
+p.favo{
+	font-size: 0.8em;
+	margin-left: -200px;
+	margin-right: 82px;
+	font-family: 'FilsonPro', sans-serif;   
+	border: white;
+	color:#FFFFFF;
+}
+
+section.knop{
+	margin-top: -2px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #5475B6;
+}
+
+img.popup{
+	width: 272px;
+    display: flex;
+    margin: 50px;
+    margin-top: -96px;
+}
+
+p.ja{
+	font-size: 1.2em;
+    font-family: 'FilsonPro', sans-serif;
+    color: white;
+    margin-top: -90px;
+    margin-left: -111px;
+}
+
+p.nee{
+	font-size: 1.2em;
+    font-family: 'FilsonPro', sans-serif;
+    color: white;
+    margin-top: -23px;
+    margin-left: 127px;
+}
+
+p.stukje{
+	margin: 35px;
+	margin-top: 27px;
+	width: 80%;
+}
+
+p.eerste{
+	width: 80%;
+	margin: 15px auto;
+}
+
+p.tweede{
+	width: 80%;
+	margin: 15px auto;
+}
+
+/* footer */
+footer nav{
+    background-color: #EB4F75;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footericoon{
+    height: 2em;
+    margin: 8px auto;
+	cursor: pointer;
+}
+
+a{
+	text-decoration: none;
+	font-family: 'AcuminVariable';
+}
